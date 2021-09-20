@@ -1,0 +1,21 @@
+#notice ul{
+	padding: 0;margin: 0;
+	list-style-type: none;
+}
+#notice ul li a{
+	padding: 5px;
+	color: black;
+	font-style: 18px;
+}
+#notice ul li:nth-child(odd){
+	background-color: #bfbfbf;
+}
+#notice ul li:nth-child(even){
+	background-color: #e6e6e6;
+}
+#notice ul li:hover{
+	background-color: #ff33ff;
+}
+#notice ul li:nth-child(odd){
+	background-color: #bfbfbf;
+}

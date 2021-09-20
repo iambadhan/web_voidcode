@@ -1,0 +1,352 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	font-family: "Crafty Girls", cursive;
+}
+#nav-bar
+{
+	position: sticky;
+	top: 0px;
+	z-index: 99;
+}
+.navbar
+{
+	background-image: linear-gradient(to right, #a517ba, #5f17f2);
+	padding: 0px !important ;
+}
+.navbar-brand
+{
+	color: white !important;
+	padding-left: 40px;
+	font-size: 30px !important;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+
+/*--------------Banner Section-------------*/
+#banner
+{
+	background-image: linear-gradient(to right, #a517ba, #5f17f2);
+	color: #fff;
+	padding-top: 5%;
+
+}
+.promo-title
+{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+#promo-image
+{
+  float: right;
+	height:450px;
+	width: 450px;
+}
+.bottom-image
+{
+  height: 85px;
+	width:100% !important;
+}
+/*--------Decoration by coder----------*/
+#programer-vai
+{
+  padding-bottom: 30px;
+  padding-top: 0px;
+}
+
+#dec-1-img
+{
+  padding-top: 0%;
+  float:left;
+}
+/*---------------gallary-----------------*/
+.btn btn-primary
+{
+  box-shadow:none; 
+  padding:8px 25px;
+  border: none;
+  border-radius:20px;
+  background-image:linear-gradient(to right, #a517ba, #5f17f2);
+}
+.void-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  box-shadow:none; 
+  padding:8px 25px;
+  border:;
+  border-radius:20px;
+}
+
+.void-btn:hover {
+  background-color: #000000;
+  color: white;
+}
+/*--------------Gallary-----------------*/
+#service
+{
+  padding: 80px 0;
+}
+/*--------Decoration by coder----------*/
+#programer-vai-2
+{
+  padding-bottom: 30px;
+  padding-top: 0px;
+}
+
+#dec-2-img
+{
+  padding-top: 0%;
+  float:left;
+}
+/*--------------Access-----------------*/
+#service
+{
+  padding: 80px 0;
+}
+.service-img
+{
+  width: 200px;
+  margin-top: 20px;
+}
+.service h4
+{
+  padding: 5px;
+  margin-top:25px;
+  text-transform: ;
+}
+.service-title::before
+{
+  content: '';
+  background:#7b1798 ;
+  height:5px ;
+  width:200px ;
+  margin-left: auto;
+  margin-right:auto ;
+  display: block;
+  transform: translateY(63px);
+}
+.service-title::after
+{
+  content: '';
+  background:#7b1798 ;
+  height:10px ;
+  width:50px ;
+  margin-left: auto;
+  margin-right:auto ;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+#service .btn-primary
+{
+  box-shadow:none; 
+  padding:8px 25px;
+  border: none;
+  border-radius:20px;
+  background-image:linear-gradient(to right, #a517ba, #5f17f2);
+}
+/*----------------Service---------------------*/
+#work
+{
+  padding: 8px 0;
+}
+.work-img
+{
+  width: 200px;
+  margin-top: 20px;
+}
+.work h4
+{
+  padding: 5px;
+  margin-top:25px;
+  text-transform: ;
+}
+.work-title::before
+{
+  content: '';
+  background:#7b1798 ;
+  height:5px ;
+  width:200px ;
+  margin-left: auto;
+  margin-right:auto ;
+  display: block;
+  transform: translateY(63px);
+}
+.work-title::after
+{
+  content: '';
+  background:#7b1798 ;
+  height:10px ;
+  width:50px ;
+  margin-left: auto;
+  margin-right:auto ;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+#work .btn-primary
+{
+  box-shadow:none; 
+  padding:8px 25px;
+  border: none;
+  border-radius:20px;
+  background-image:linear-gradient(to right, #a517ba, #5f17f2);
+}
+
+/*---------------Social-Media Section------------------*/
+#social-media
+{
+	background :;
+	padding: 10px 0 ;
+}
+#social-media p
+{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.bttn{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #000000;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+}
+.bttn i{
+  line-height: 90px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+.bttn:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+.bttn::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: linear-gradient(to right, #a517ba, #5f17f2);
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.bttn:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes aaa 
+{
+  0%
+  {
+    left: -110%;
+    top: 90%;
+  }
+  50%
+  {
+    left: 10%;
+    top: -30%;
+  }
+  100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+
+
+/*------------------Footer Section------------------*/
+#footer
+{
+	background-image: linear-gradient(to left, #a517ba,#5f17f2 );
+	color: #fff;
+}
+
+.footer-box
+{
+  padding: 5%;
+}
+.footer-box img
+{
+  width: 120px;
+  margin-bottom: 20px;
+}
+.footer-box .fa
+{
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+}
+.footer-box .form-control
+{
+  box-shadow: none;
+  border: none;
+  border-radius: 5;
+  margin-top: 25px;
+}
+.footer-box .btn-primary
+{
+  margin-top: 30px;
+  background-color: black;
+}
+
+.footer-box .btn-primary:hover 
+{
+  transform: scale(1.3);
+  color: #f1f1f1;
+  border-radius: 5;
+}
+.copyright
+{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

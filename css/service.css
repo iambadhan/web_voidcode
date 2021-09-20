@@ -1,0 +1,98 @@
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	font-family: sans-serif;
+}
+#nav-bar
+{
+	position: sticky;
+	top: 0px;
+	z-index: 99;
+}
+.navbar
+{
+	background-image: linear-gradient(to right, #a517ba, #5f17f2);
+	padding: 0px !important ;
+}
+.navbar-brand
+{
+	color: white !important;
+	padding-left: 40px;
+	font-size: 30px !important;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+
+/*------------------Footer Section------------------*/
+#footer
+{
+	background-image: linear-gradient(to left, #a517ba,#5f17f2 );
+	color: #fff;
+}
+
+.footer-box
+{
+  padding: 5%;
+}
+.footer-box img
+{
+  width: 120px;
+  margin-bottom: 20px;
+}
+.footer-box .fa
+{
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+}
+.footer-box .form-control
+{
+  box-shadow: none;
+  border: none;
+  border-radius: 5;
+  margin-top: 25px;
+}
+.footer-box .btn-primary
+{
+  margin-top: 30px;
+  background-color: black;
+}
+
+.footer-box .btn-primary:hover 
+{
+  transform: scale(1.3);
+  color: #f1f1f1;
+  border-radius: 5;
+}
+.copyright
+{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
